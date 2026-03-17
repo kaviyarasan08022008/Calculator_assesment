@@ -1,7 +1,6 @@
 import logResult, { add, subtract, multiply, divide } from './math.js';
 
 document.getElementById("calcBtn").addEventListener("click", () => {
-
     const num1 = parseInt(document.getElementById("num1").value);
     const num2 = parseInt(document.getElementById("num2").value);
     const operator = document.getElementById("operator").value;
